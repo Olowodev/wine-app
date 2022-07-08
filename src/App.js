@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import LeftContainer from './components/LeftContainer';
+import RightContainer from './components/RightContainer';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="App flex">
+      <LeftContainer />
+      <RightContainer />
     </div>
   );
 }
