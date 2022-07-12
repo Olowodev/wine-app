@@ -13,14 +13,15 @@ const MainLeft = () => {
         </div>
         <div className='w-full border-t-2'></div>
         <div>
-            <div className='flex items-center justify-between mx-9'>
+            <div className='flex items-center justify-between mx-9 mt-3'>
                 <img />
-                <div>
-                    <h3>Come to the wine-tasting</h3>
-                    <p>Only on June 1 there will be a tasting of our new wines in Tbiisi. To sign up for the tasting...</p>
+                <div className='max-w-md'>
+                    <h3 className='text-3xl'>Come to the wine-tasting</h3>
+                    <p>Only on June 1 there will be a tasting of our
+                    new wines in Tbiisi. To sign up for the tasting...</p>
                     
                 </div>
-                <div className='rounded-100 border-4 w-28 h-28 flex items-center justify-center'>
+                <div className='rounded-100 border-2 leftCircle w-28 h-28 flex items-center justify-center rotate-[-20deg] hover:rotate-0 transition-all cursor-pointer'>
                     <p>Read more</p>
                 </div>
             </div>

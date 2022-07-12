@@ -4,7 +4,7 @@ import SlideShow from './SlideShow'
 
 const RightContainer = () => {
   return (
-    <div className='flex-auto'>
+    <div className='overflow-hidden'>
         <RightNavbar />
         <SlideShow />
     </div>

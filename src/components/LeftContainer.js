@@ -4,7 +4,7 @@ import MainLeft from './MainLeft'
 
 const LeftContainer = () => {
   return (
-    <div className='border-r-2 max-w-5xl'>
+    <div className='border-r-2 h-[100vh] max-w-5xl col-span-3'>
         <LeftNavbar />
         <MainLeft />
     </div>
